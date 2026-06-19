@@ -1,0 +1,15 @@
+题名：GazeTarget360: Towards Gaze Target Estimation in 360-Degree for Robot Perception
+作者：Zhuangzhuang Dai; Vincent Gbouna Zakka; Luis J. Manso; Chen Li
+年份：2025
+arXiv ID：2507.00253
+PDF：https://arxiv.org/pdf/2507.00253.pdf
+
+研究问题：如何让机器人在真实广角/360 度视觉场景中估计人的 gaze target，尤其处理传统 in-frame 方法忽略的 out-of-frame 情况。
+
+方法：提出 GazeTarget360，集成 eye-contact detector、预训练视觉编码器和多尺度融合解码器进行条件推理。
+
+数据/实验：通过交叉验证评估未见场景中的预测准确性和可靠性，并关注部署效率。
+
+主要结论：系统可在真实摄像头场景中进行 360 度 gaze target 预测，具备较好泛化和可部署性。
+
+局限性：摘要未给出与所有主流基准的完整量化对比；360 度定义和数据采集条件可能影响可复现性。
