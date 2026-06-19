@@ -1,0 +1,15 @@
+题名：Human Attention in Fine-grained Classification
+作者：Yao Rong; Wenjia Xu; Zeynep Akata; Enkelejda Kasneci
+年份：2021
+arXiv ID：2111.01628
+PDF：https://arxiv.org/pdf/2111.01628.pdf
+
+研究问题：人类 gaze attention 是否能帮助 fine-grained classification，并纠正模型关注错误区域。
+
+方法：收集 CUB-GHA 人类 gaze attention 数据，提出 Gaze Augmentation Training 和 Knowledge Fusion Network，将 gaze knowledge 融入分类模型。
+
+数据/实验：在 CUB-GHA 和含放射科医生 gaze 的 CXR-Eye 医学数据集上评估。
+
+主要结论：融合人类注意知识可有效提升细粒度分类，例如在 CXR 上相对 baseline 提升 4.38%。
+
+局限性：需要收集专家或人类 gaze 数据，标注/采集成本高；不同任务中 gaze 是否总是可靠监督仍需验证。
