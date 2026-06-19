@@ -1,0 +1,15 @@
+题名：MRGazer: Decoding Eye Gaze Points from Functional Magnetic Resonance Imaging in Individual Space
+作者：Xiuwen Wu; Rongjie Hu; Jie Liang; Yanming Wang; Bensheng Qiu; Xiaoxiao Wang
+年份：2023
+arXiv ID：2311.13372
+PDF：https://arxiv.org/pdf/2311.13372.pdf
+
+研究问题：如何从个体空间中的 fMRI 数据直接预测眼睛 gaze points，避免传统方法依赖标准空间配准和眼球模板带来的耗时处理。
+
+方法：提出 MRGazer，包括眼球提取模块和基于残差网络的 gaze point 回归模块，跳过 fMRI 共配准步骤，实现端到端预测。
+
+数据/实验：在多种眼动任务上与共配准方法比较，考察预测性能和每个 volume 的处理时间。
+
+主要结论：MRGazer 相比共配准方法表现更好且速度更快，单个 volume 约 0.02 秒，相比既有方法约 0.3 秒。
+
+局限性：任务和数据来自 fMRI 场景，时间/空间分辨率受成像机制限制；摘要未说明跨设备、跨被试大规模泛化情况。
