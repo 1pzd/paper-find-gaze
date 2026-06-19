@@ -1,0 +1,15 @@
+题名：A Multimodal Eye Movement Dataset and a Multimodal Eye Movement Segmentation Analysis
+作者：Wolfgang Fuhl; Enkelejda Kasneci
+年份：2021
+arXiv ID：2101.04318
+PDF：https://arxiv.org/pdf/2101.04318.pdf
+
+研究问题：如何提供含多种眼动信号的数据集，并分析不同信号源对眼动分类/分割的适用性。
+
+方法：发布带标注的眼动数据集，包含眼睑闭合、瞳孔中心、光学向量和眼角到瞳孔中心向量等多模态信号，并分别/组合评估。
+
+数据/实验：数据包含真实驾驶和模拟器中的 80 万余 gaze points，19 名被试标注眼动。
+
+主要结论：不同数据源对眼动分类的贡献不同，数据集和代码可支持实时系统和新算法训练评估。
+
+局限性：被试数量较小且场景集中在驾驶/模拟器；数据采集设备和标注方式可能影响泛化。
