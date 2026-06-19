@@ -1,0 +1,15 @@
+题名：Few-shot Personalized Saliency Prediction Based on Interpersonal Gaze Patterns
+作者：Yuya Moroto; Keisuke Maeda; Takahiro Ogawa; Miki Haseyama
+年份：2023
+arXiv ID：2307.02799
+PDF：https://arxiv.org/pdf/2307.02799.pdf
+
+研究问题：如何在个人 eye-tracking 数据很少时预测 personalized saliency maps，利用他人 gaze patterns 辅助个体化建模。
+
+方法：选择能带来多样 gaze patterns 的图像采集眼动数据，并用张量回归保留 personalized saliency maps 的结构信息。
+
+数据/实验：在 few-shot PSM prediction 设置中比较图像选择和结构保持因素的贡献。
+
+主要结论：多样 gaze pattern 图像选择与结构信息保留均有助于少样本个性化 saliency 预测。
+
+局限性：摘要未给出具体数据规模和跨任务泛化；个体化模型仍依赖少量目标用户眼动样本。
