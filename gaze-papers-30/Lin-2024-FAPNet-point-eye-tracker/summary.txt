@@ -1,0 +1,15 @@
+题名：FAPNet: An Effective Frequency Adaptive Point-based Eye Tracker
+作者：Xiaopeng Lin; Hongwei Ren; Bojun Cheng
+年份：2024
+arXiv ID：2406.03177
+PDF：https://arxiv.org/pdf/2406.03177v1
+
+研究问题：事件相机眼动追踪如何充分利用稀疏、细粒度时间信息，同时降低模型复杂度，使其适合边缘设备部署。
+
+方法：将事件数据表示为 point cloud，在 PEPNet 基础上设计 FAPNet，引入 frequency adaptive mechanism 根据瞳孔运动速度自适应追踪，并用 Inter Sample LSTM 建模样本间长期时序关系。
+
+数据/实验：在 Event-based Eye Tracking Challenge 和 SEET synthetic dataset 上评估精度、计算资源与不同架构组件贡献。
+
+主要结论：FAPNet 在 SEET 数据集上达到 SOTA，同时计算需求仅约为 PEPNet 的 10%，且计算量不随传感器空间分辨率增长，适合低资源部署。
+
+局限性：主要面向事件相机，硬件门槛高；合成数据和挑战赛数据到真实复杂佩戴/光照条件的泛化仍需更多验证。
