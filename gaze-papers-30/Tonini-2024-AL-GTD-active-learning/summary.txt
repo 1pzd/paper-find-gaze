@@ -1,0 +1,15 @@
+题名：AL-GTD: Deep Active Learning for Gaze Target Detection
+作者：Francesco Tonini; Nicola DallAsen; Lorenzo Vaquero; Cigdem Beyan; Elisa Ricci
+年份：2024
+arXiv ID：2409.18561
+PDF：https://arxiv.org/pdf/2409.18561.pdf
+
+研究问题：如何减少 gaze target detection 对大量人工标注数据的依赖。
+
+方法：提出主动学习框架 AL-GTD，将监督与自监督损失纳入样本 acquisition function，并用伪标签缓解训练分布偏移。
+
+数据/实验：将多种主动学习方法适配到 GTD，比较低标注比例下的 AUC 等指标。
+
+主要结论：AL-GTD 使用约 40-50% 训练数据即可达到需要全量数据的 SOTA 效果，并在 10-20% 数据下快速获得可用性能。
+
+局限性：仍需一定初始标注和迭代训练；摘要未说明主动采样在真实标注流程中的成本收益。
