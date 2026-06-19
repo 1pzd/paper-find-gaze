@@ -1,0 +1,15 @@
+题名：Upper-Body Pose-based Gaze Estimation for Privacy-Preserving 3D Gaze Target Detection
+作者：Andrea Toaiari; Vittorio Murino; Marco Cristani; Cigdem Beyan
+年份：2024
+arXiv ID：2409.17886
+PDF：https://arxiv.org/pdf/2409.17886.pdf
+
+研究问题：如何在保护隐私的前提下进行 3D gaze target detection，减少对人脸外观的依赖。
+
+方法：利用上半身姿态和深度图估计 3D gaze direction，并用多阶段或端到端流水线预测被注视目标。
+
+数据/实验：在公开 3D gaze target detection 数据集上评估，同时比较不使用人脸图像的效果。
+
+主要结论：上半身姿态可作为头部/视线方向和动作上下文的有效代理，在不使用人脸图像的情况下达到 SOTA。
+
+局限性：效果依赖姿态估计和深度图质量；对细微眼动或仅眼睛可见场景可能不适用。
