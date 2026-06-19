@@ -1,0 +1,15 @@
+题名：LNSMM: Eye Gaze Estimation With Local Network Share Multiview Multitask
+作者：Yong Huang; Ben Chen; Daiming Qu
+年份：2021
+arXiv ID：2101.07116
+PDF：https://arxiv.org/pdf/2101.07116.pdf
+
+研究问题：如何同时估计 eye gaze points 和 gaze directions，并减少网络参数、加快收敛。
+
+方法：构建 local sharing network 和 multiview multitask learning 框架，对 gaze direction 使用左右眼共面约束，对 gaze points 使用三视图输入、cross-view pooling 和联合损失。
+
+数据/实验：作者采集含 gaze points 的三视图数据，并在 gaze point 与 gaze direction 指标上评估。
+
+主要结论：多视图多任务学习能同时提升 gaze points 和 gaze directions 估计，达到当时主流方法中的较好表现。
+
+局限性：论文摘要表达较粗略，数据集规模和跨数据集泛化细节有限；三视图采集增加硬件要求。
