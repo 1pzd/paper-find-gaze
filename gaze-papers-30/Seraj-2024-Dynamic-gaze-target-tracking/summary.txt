@@ -1,0 +1,15 @@
+题名：Realtime Dynamic Gaze Target Tracking and Depth-Level Estimation
+作者：Esmaeil Seraj; Harsh Bhate; Walter Talamonti
+年份：2024
+arXiv ID：2406.18595
+PDF：https://arxiv.org/pdf/2406.18595.pdf
+
+研究问题：如何在透明显示等动态界面中实时识别、跟踪用户 gaze target，并估计注视深度层级以避免误交互。
+
+方法：提出两部分系统：树算法实时跟踪移动、缩放、重叠的 2D 内容；多流自注意力网络从眼动数据估计 depth-level。
+
+数据/实验：采集真实 eye-tracking 数据集，进行静态/动态场景、消融和 SoC 板上推理实验。
+
+主要结论：系统在动态透明显示场景中表现出可扩展、精确和实时可行的 gaze monitoring 能力。
+
+局限性：应用场景较专门，透明显示数据集规模和外部泛化仍需更多验证。
