@@ -1,0 +1,15 @@
+题名：Exploring Gaze Pattern Differences Between Autistic and Neurotypical Children: Clustering, Visualisation, and Prediction
+作者：Weiyan Shi; Haihong Zhang; Wei Wang; Kenny Tsu Wei Choo
+年份：2024
+arXiv ID：2409.11744
+PDF：https://arxiv.org/pdf/2409.11744.pdf
+
+研究问题：内部聚类有效性指标能否揭示自闭症儿童和典型发育儿童 gaze pattern 差异，并辅助 ASD 预测。
+
+方法：对 gaze points 应用 7 种聚类算法，提取 63 个内部聚类有效性指标，分析与 ASD 诊断的相关性并训练预测模型。
+
+数据/实验：在三个数据集上进行聚类、可视化和 ASD 预测实验。
+
+主要结论：聚类有效性指标可区分 ASD 与 TD 儿童，预测模型达到约 81% AUC，验证了 gaze pattern 特征的诊断价值。
+
+局限性：研究依赖数据集和眼动任务设计；聚类指标可解释性与临床可用性仍需更大样本验证。
