@@ -1,0 +1,15 @@
+题名：Gaze-LLE: Gaze Target Estimation via Large-Scale Learned Encoders
+作者：Fiona Ryan; Ajay Bati; Sangmin Lee; Daniel Bolya; Judy Hoffman; James M. Rehg
+年份：2024
+arXiv ID：2412.09586
+PDF：https://arxiv.org/pdf/2412.09586.pdf
+
+研究问题：如何减少 gaze target estimation 中复杂手工流水线，对人物外观与场景内容进行高效联合推理。
+
+方法：提出 Gaze-LLE，使用冻结 DINOv2 编码器提取场景表示，并通过 person-specific positional prompt 和轻量解码模块预测 gaze。
+
+数据/实验：在多个 gaze benchmark 上评估，并进行设计选择分析和消融。
+
+主要结论：冻结大型视觉编码器配合轻量提示/解码可取得 SOTA 表现，说明通用视觉特征对 gaze target estimation 有很强迁移性。
+
+局限性：依赖大型预训练编码器，计算和显存成本可能较高；摘要未说明对实时或低资源设备的适配。
