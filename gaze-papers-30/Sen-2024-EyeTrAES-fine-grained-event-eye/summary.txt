@@ -1,0 +1,15 @@
+题名：EyeTrAES: Fine-grained, Low-Latency Eye Tracking via Adaptive Event Slicing
+作者：Argha Sen; Nuwan Bandara; Ila Gokarn; Thivya Kandappu; Archan Misra
+年份：2024
+arXiv ID：2409.18813
+PDF：https://arxiv.org/pdf/2409.18813v3
+
+研究问题：传统 RGB 摄像头眼动追踪在快速眼动、功耗和延迟方面存在限制；如何利用事件相机实现细粒度、低延迟、高保真的瞳孔追踪。
+
+方法：提出 EyeTrAES，用 adaptive event slicing 在不同眼动模式下累积适量异步事件，再对单眼事件帧做轻量瞳孔分割和追踪；同时利用短时瞳孔位置、速度、加速度特征进行用户认证。
+
+数据/实验：在两个事件眼动数据集上评估瞳孔追踪 IoU、处理延迟和认证准确率，并与多种事件式 eye tracking 基线比较。
+
+主要结论：EyeTrAES 将瞳孔追踪 fidelity 提升 6% 以上，IoU 约 92%，延迟比纯事件式替代方法至少低 3 倍；基于瞳孔运动的认证准确率约 0.82。
+
+局限性：需要专用事件相机；认证表现可能受采集条件、眼部遮挡、个体状态和跨设备差异影响。
