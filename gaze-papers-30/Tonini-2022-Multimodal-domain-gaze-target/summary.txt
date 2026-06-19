@@ -1,0 +1,15 @@
+题名：Multimodal Across Domains Gaze Target Detection
+作者：Francesco Tonini; Cigdem Beyan; Elisa Ricci
+年份：2022
+arXiv ID：2208.10822
+PDF：https://arxiv.org/pdf/2208.10822.pdf
+
+研究问题：如何在第三人称单图像中预测 gaze target，并缓解不同数据集之间的 domain gap。
+
+方法：构建多模态深度网络，融合人物头部图像、场景图像和深度图上下文，不依赖 gaze angle、头部朝向或眼睛位置监督，并研究域自适应。
+
+数据/实验：在多个 gaze target benchmark 上进行实验，并比较不同多模态联合学习变体和跨数据集域适应表现。
+
+主要结论：多模态上下文能增强 gaze target detection，部分变体优于已有方法；域适应设置能更好处理数据集差异。
+
+局限性：性能依赖深度图和多模态输入质量；真实部署中跨场景、跨摄像头标注稀缺仍可能限制泛化。
