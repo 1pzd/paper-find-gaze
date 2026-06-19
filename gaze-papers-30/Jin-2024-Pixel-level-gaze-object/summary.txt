@@ -1,0 +1,15 @@
+题名：Boosting Gaze Object Prediction via Pixel-level Supervision from Vision Foundation Model
+作者：Yang Jin; Lei Zhang; Shi Yan; Bin Fan; Binglu Wang
+年份：2024
+arXiv ID：2408.01044
+PDF：https://arxiv.org/pdf/2408.01044v1
+
+研究问题：如何在 gaze object prediction 中预测人正在看的对象类别和位置，并通过像素级监督减少框级标注带来的语义歧义。
+
+方法：提出 gaze object detection and segmentation 框架，引入 Vision Foundation Model 生成的像素级监督，自动从场景特征中获得头部特征，并设计 space-to-object gaze regression 来建模人与对象之间的空间连接，再通过分割分支细化 gaze heatmap。
+
+数据/实验：在 GOO-Synth 和 GOO-Real 数据集上进行大量实验，比较 gaze object prediction / segmentation 的有效性。
+
+主要结论：像素级监督能缓解相邻对象造成的语义混淆，所提框架能够更精确地定位被注视对象，并提升细粒度 gaze object prediction 表现。
+
+局限性：方法依赖 VFM 分割质量和数据集中 gaze-object 标注；对于开放世界类别、强遮挡或低质量图像的泛化仍需进一步验证。
