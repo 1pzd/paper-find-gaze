@@ -1,0 +1,15 @@
+题名：Object-aware Gaze Target Detection
+作者：Francesco Tonini; Nicola DallAsen; Cigdem Beyan; Elisa Ricci
+年份：2023
+arXiv ID：2307.09662
+PDF：https://arxiv.org/pdf/2307.09662.pdf
+
+研究问题：如何在第三人称场景中不仅定位人正在看的图像位置，还识别被注视对象及其类别，从而让 gaze target detection 更具可解释性。
+
+方法：提出基于 Transformer 的对象感知架构，自动检测场景中的对象和头部，并学习头部与被注视对象/头部之间的关联，同时输出 gaze target 区域、像素点、对象类别和位置。
+
+数据/实验：在 in-the-wild gaze target detection 基准上评估，报告 AUC、gaze distance、out-of-frame AP 以及被注视对象分类/定位 AP。
+
+主要结论：方法在多项指标上达到当时 SOTA，AUC 提升最高约 2.91%，gaze distance 减半，并提升 out-of-frame 与 gazed-object 相关指标。
+
+局限性：主要依赖对象检测与关联建模质量；摘要未说明跨域、遮挡严重或极端小目标场景下的失败模式。
