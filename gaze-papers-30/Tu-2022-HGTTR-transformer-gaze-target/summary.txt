@@ -1,0 +1,15 @@
+题名：End-to-End Human-Gaze-Target Detection with Transformers
+作者：Danyang Tu; Xiongkuo Min; Huiyu Duan; Guodong Guo; Guangtao Zhai; Wei Shen
+年份：2022
+arXiv ID：2203.10433
+PDF：https://arxiv.org/pdf/2203.10433.pdf
+
+研究问题：如何避免传统 gaze following 中先检测头部再预测目标的两阶段流程，并一次性处理多人 gaze target。
+
+方法：提出 HGTTR，将任务重定义为同时检测人头位置及其 gaze target，用 Transformer 从全局上下文中推理显著物体和人类 gaze 关系。
+
+数据/实验：在 GazeFollowing 和 VideoAttentionTarget 两个标准数据集上评估。
+
+主要结论：HGTTR 用更简单端到端架构取得明显提升，在 GazeFollowing mAP 提升 6.4、VideoAttentionTarget mAP 提升 10.3。
+
+局限性：Transformer 依赖足够训练数据和全局上下文；摘要未讨论小样本、遮挡和实时部署限制。
