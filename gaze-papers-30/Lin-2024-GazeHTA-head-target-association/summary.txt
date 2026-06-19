@@ -1,0 +1,15 @@
+题名：GazeHTA: End-to-end Gaze Target Detection with Head-Target Association
+作者：Zhi-Yi Lin; Jouh Yeong Chew; Jan van Gemert; Xucong Zhang
+年份：2024
+arXiv ID：2404.10718
+PDF：https://arxiv.org/pdf/2404.10718.pdf
+
+研究问题：如何端到端处理多人 gaze target detection，并显式建立头部与目标区域之间的关联。
+
+方法：提出 GazeHTA，利用预训练扩散模型提取场景语义，重新注入头部特征，并学习 connection map 表达头部-目标关联。
+
+数据/实验：在两个标准 gaze target detection 数据集上与 SOTA 和扩散模型基线比较。
+
+主要结论：GazeHTA 在标准数据集上优于已有方法，说明显式 head-target association 和扩散特征对 gaze target detection 有效。
+
+局限性：依赖预训练扩散特征可能增加计算成本；摘要未讨论实时性和极端多人密集场景。
