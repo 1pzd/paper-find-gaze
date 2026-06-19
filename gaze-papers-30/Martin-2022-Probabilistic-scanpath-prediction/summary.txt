@@ -1,0 +1,15 @@
+题名：A Probabilistic Time-Evolving Approach to Scanpath Prediction
+作者：Daniel Martin; Diego Gutierrez; Belen Masia
+年份：2022
+arXiv ID：2204.09404
+PDF：https://arxiv.org/pdf/2204.09404.pdf
+
+研究问题：如何处理 scanpath prediction 中强烈的观察者间/观察者内变异，并联合建模空间和时间维度。
+
+方法：基于 Bayesian deep learning 构建概率时间演化模型，使用结合 KL divergence 和 dynamic time warping 的时空损失。
+
+数据/实验：在 scanpath prediction benchmark 上与 SOTA 比较，并考察接近 human baseline 的程度。
+
+主要结论：模型优于当时 SOTA，生成的 scanpaths 与真实人类行为更接近，强调概率建模对注意变异的重要性。
+
+局限性：概率模型训练和评价更复杂；摘要未说明计算成本及长序列/动态视频场景表现。
