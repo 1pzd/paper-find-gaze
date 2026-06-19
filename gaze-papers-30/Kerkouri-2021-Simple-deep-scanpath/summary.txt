@@ -1,0 +1,15 @@
+题名：A Simple and efficient deep Scanpath Prediction
+作者：Mohamed Amine Kerkouri; Aladine Chetouani
+年份：2021
+arXiv ID：2112.04610
+PDF：https://arxiv.org/pdf/2112.04610.pdf
+
+研究问题：复杂架构是否必要，简单全卷积回归模型能否有效预测视觉 scanpaths。
+
+方法：探索常见深度学习 backbone，以简单 fully convolutional regression 方式预测 scanpaths，并比较不同 backbone。
+
+数据/实验：在两个 scanpath 数据集上用多种指标与已有复杂模型比较。
+
+主要结论：简单高效的深度模型可达到有竞争力甚至超过复杂架构的表现，backbone 选择对任务适配很关键。
+
+局限性：摘要未说明在更多任务/数据集上的泛化；简单模型可能难以捕获个体差异和任务驱动注意。
