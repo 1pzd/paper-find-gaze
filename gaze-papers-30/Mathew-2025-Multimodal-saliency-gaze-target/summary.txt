@@ -1,0 +1,15 @@
+题名：Leveraging Multi-Modal Saliency and Fusion for Gaze Target Detection
+作者：Athul M. Mathew; Arshad Ali Khan; Thariq Khalid; Faroq AL-Tam; Riad Souissi
+年份：2025
+arXiv ID：2504.19271
+PDF：https://arxiv.org/pdf/2504.19271.pdf
+
+研究问题：如何融合头部、身体、眼睛和环境上下文来提升 gaze target detection。
+
+方法：将 2D 图像投影到 3D 表示，提取深度增强 saliency map、脸部和深度模态，并进行多模态融合定位 gaze target。
+
+数据/实验：在 VideoAttentionTarget、GazeFollow 和 GOO-Real 三个公开数据集上做定量评估和消融。
+
+主要结论：多模态 saliency 与深度/脸部融合优于现有 SOTA，说明空间显著性和深度信息对 GTD 有益。
+
+局限性：依赖单目深度估计质量和多模态融合稳定性；摘要未说明复杂透明/反射场景表现。
