@@ -1,0 +1,15 @@
+题名：Beyond Average: Individualized Visual Scanpath Prediction
+作者：Xianyu Chen; Ming Jiang; Qi Zhao
+年份：2024
+arXiv ID：2404.12235
+PDF：https://arxiv.org/pdf/2404.12235.pdf
+
+研究问题：现有 scanpath 模型常预测平均注意模式，忽略不同个体的注意差异；如何实现 individualized scanpath prediction。
+
+方法：提出 ISP 方法，包括 observer encoder、observer-centric feature integration 和 adaptive fixation prioritization，将观察者特质融入预测。
+
+数据/实验：在不同数据集、模型架构和视觉任务上用 value-based 与 ranking-based 指标评估。
+
+主要结论：方法能有效捕获个体注意差异，并可将一般 scanpath 模型转化为个体化模型。
+
+局限性：需要观察者相关数据来建模个体特质；在全新用户零样本场景下可能受限。
