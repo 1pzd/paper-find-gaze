@@ -1,0 +1,15 @@
+题名：ViTGaze: Gaze Following with Interaction Features in Vision Transformers
+作者：Yuehao Song; Xinggang Wang; Jingfeng Yao; Wenyu Liu; Jinglin Zhang; Xiangmin Xu
+年份：2024
+arXiv ID：2403.12778
+PDF：https://arxiv.org/pdf/2403.12778.pdf
+
+研究问题：如何用较简单单模态框架建模人-场景交互，减少 gaze following 对复杂多模态提取器的依赖。
+
+方法：提出 ViTGaze，利用预训练 ViT 的 self-attention 迁移为人-场景交互特征，包含 4D interaction encoder 和 2D spatial guidance module。
+
+数据/实验：在 gaze following 数据集上与单模态和多模态方法比较，评估 AUC、AP 和参数量。
+
+主要结论：ViTGaze 在单模态方法中达到 SOTA，AUC 提升 3.4%、AP 提升 5.1%，且参数显著少于多模态方法。
+
+局限性：仍依赖预训练 ViT 和注意力图质量；摘要未说明对极端头姿或遮挡的鲁棒性。
