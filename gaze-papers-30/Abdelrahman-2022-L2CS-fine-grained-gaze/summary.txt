@@ -1,0 +1,15 @@
+题名：L2CS-Net: Fine-Grained Gaze Estimation in Unconstrained Environments
+作者：Ahmed A. Abdelrahman; Thorsten Hempel; Aly Khalifa; Ayoub Al-Hamadi
+年份：2022
+arXiv ID：2203.03339
+PDF：https://arxiv.org/pdf/2203.03339.pdf
+
+研究问题：如何在非受控环境中鲁棒估计 gaze direction，处理眼部外观、光照、头姿和 gaze direction 多样性。
+
+方法：提出 CNN 模型 L2CS-Net，分别回归两个 gaze angle，并为每个角度设置独立损失以提升精度和泛化。
+
+数据/实验：在 MPIIGaze 和 Gaze360 两个非受控 gaze 数据集上评估。
+
+主要结论：模型达到 SOTA，MPIIGaze 上 3.92 度、Gaze360 上 10.41 度误差。
+
+局限性：主要估计 gaze direction 而非完整 gaze target；极端遮挡、低分辨率或跨设备部署仍可能困难。
