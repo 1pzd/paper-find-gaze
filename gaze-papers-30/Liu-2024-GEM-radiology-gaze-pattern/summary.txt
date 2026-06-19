@@ -1,0 +1,15 @@
+题名：GEM: Context-Aware Gaze EstiMation with Visual Search Behavior Matching for Chest Radiograph
+作者：Shaonan Liu; Wenting Chen; Jie Liu; Xiaoling Luo; Linlin Shen
+年份：2024
+arXiv ID：2408.05502
+PDF：https://arxiv.org/pdf/2408.05502.pdf
+
+研究问题：如何在胸片报告/影像场景中建模放射科医生视觉搜索 gaze patterns，并提升医学图像解释性。
+
+方法：提出 GEM，包含上下文感知模块、视觉行为图构建和 visual behavior matching；将 gaze points 作为图节点并匹配高阶关系。
+
+数据/实验：在四个公开数据集上与已有方法比较，评估 gaze estimation 和泛化。
+
+主要结论：GEM 更好模拟真实视觉搜索行为，并在多个数据集上优于已有方法，为多模态医学图像解释提供新方向。
+
+局限性：依赖高质量医生 gaze 数据和报告-图像配准；临床流程中的实时性和跨机构泛化仍未由摘要充分说明。
