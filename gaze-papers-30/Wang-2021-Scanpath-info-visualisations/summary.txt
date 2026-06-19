@@ -1,0 +1,15 @@
+题名：Scanpath Prediction on Information Visualisations
+作者：Yao Wang; Mihai Bace; Andreas Bulling
+年份：2021
+arXiv ID：2112.02340
+PDF：https://arxiv.org/pdf/2112.02340.pdf
+
+研究问题：如何在信息可视化中预测 scanpaths，而不仅是聚合 saliency。
+
+方法：提出 UMSS，先预测多时长元素级 saliency maps，再从中概率采样 scanpaths，并基于 MASSVIS 分析不同可视化元素的 gaze dynamics。
+
+数据/实验：在 MASSVIS 数据集上用多种 scanpath 和 saliency 指标与 SOTA 比较。
+
+主要结论：UMSS 在 scanpath sequence score 上相对提升 11.5%，saliency Pearson 最高相对提升 23.6%，说明元素级动态建模有效。
+
+局限性：针对信息可视化场景，迁移到自然图像或交互式动态图表需要额外验证。
