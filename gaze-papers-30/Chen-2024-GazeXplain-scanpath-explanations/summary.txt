@@ -1,0 +1,15 @@
+题名：GazeXplain: Learning to Predict Natural Language Explanations of Visual Scanpaths
+作者：Xianyu Chen; Ming Jiang; Qi Zhao
+年份：2024
+arXiv ID：2408.02788
+PDF：https://arxiv.org/pdf/2408.02788.pdf
+
+研究问题：传统 scanpath 模型预测 gaze shift 的位置和时间，但无法解释 fixation 背后的原因；如何同时预测 scanpaths 和自然语言解释。
+
+方法：构建 fixation 自然语言解释标注，提出 attention-language decoder，并用语义对齐机制和跨数据集协同训练提升一致性与泛化。
+
+数据/实验：在多个 eye-tracking 数据集上评估 scanpath prediction 和解释生成。
+
+主要结论：GazeXplain 能同时改进 scanpath 预测和解释生成，为理解人类视觉注意和认知过程提供可解释输出。
+
+局限性：自然语言解释标注成本高且主观；解释质量可能受语言模型偏差影响。
