@@ -1,0 +1,15 @@
+题名：OAT: Object-Level Attention Transformer for Gaze Scanpath Prediction
+作者：Yini Fang; Jingling Yu; Haozheng Zhang; Ralf van der Lans; Bertram Shi
+年份：2024
+arXiv ID：2407.13335
+PDF：https://arxiv.org/pdf/2407.13335.pdf
+
+研究问题：视觉搜索中的注意往往由对象而非像素强度引导；如何进行对象级 gaze scanpath prediction。
+
+方法：提出 Object-level Attention Transformer，用 encoder-decoder 捕获对象位置、外观和目标信息，decoder 输出对象 fixation 序列，并设计对象空间位置编码。
+
+数据/实验：在 Amazon book cover 数据集和新采集的视觉搜索数据集上，用既有指标和行为指标比较。
+
+主要结论：OAT 的预测 scanpaths 更贴近人类 gaze patterns，并能泛化到未见布局和目标对象。
+
+局限性：需要对象级表示/检测；对无明确对象边界或高度动态场景的适应性尚不明确。
