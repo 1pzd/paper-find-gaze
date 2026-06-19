@@ -1,0 +1,15 @@
+题名：Few-shot Personalized Scanpath Prediction
+作者：Ruoyu Xue; Jingyi Xu; Sounak Mondal; Hieu Le; Gregory Zelinsky; Minh Hoai; Dimitris Samaras
+年份：2025
+arXiv ID：2504.05499
+PDF：https://arxiv.org/pdf/2504.05499.pdf
+
+研究问题：如何让 scanpath prediction 模型在只给少量新被试样本时完成个体化预测。
+
+方法：提出 FS-PSP 任务和 Subject-Embedding Network，学习能区分不同被试且减小同一被试内部差异的 subject embedding，条件化生成个性化 scanpath。
+
+数据/实验：在多个 eye-tracking 数据集上评估 few-shot personalized scanpath prediction，测试时无需微调。
+
+主要结论：方法在少样本个体化设置中表现突出，说明 subject embedding 可有效捕获个体视觉偏好。
+
+局限性：仍需少量目标被试支持样本；真实应用中样本采集成本和噪声会影响 embedding 稳定性。
