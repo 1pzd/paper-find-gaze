@@ -1,0 +1,15 @@
+题名：Unified Dynamic Scanpath Predictors Outperform Individually Trained Neural Models
+作者：Fares Abawi; Di Fu; Stefan Wermter
+年份：2024
+arXiv ID：2405.02929
+PDF：https://arxiv.org/pdf/2405.02929.pdf
+
+研究问题：如何在动态社会场景中预测个体异质 gaze patterns，同时避免为每个个体训练单独模型。
+
+方法：构建深度社会线索整合模型，通过 gating 和 sequential attention 递归融合 fixation history 与社会线索，用统一模型学习 scanpaths。
+
+数据/实验：在动态社会场景 gaze 数据集上比较早期/晚期融合、统一模型和个体模型。
+
+主要结论：统一模型在多观察者 scanpaths 上训练可达到或超过个体模型，fixation history 帮助学习个性化注意行为。
+
+局限性：适用性集中于动态社会场景；社会线索提取质量和数据集分布会影响结果。
