@@ -1,0 +1,23 @@
+题名：Evidence for five types of fixation during a random saccade eye tracking task: Implications for the study of oculomotor fatigue
+作者：Lee Friedman; Oleg V. Komogortsev
+年份：2024
+arXiv ID：2406.01496
+PDF：https://arxiv.org/pdf/2406.01496.pdf
+
+研究问题：
+研究随机眼跳任务中 fixation duration 是否存在多个类型，以及这些类型随 time-on-task 如何变化。
+
+方法：
+对大型公开随机眼跳数据中的 fixation duration 直方图做高斯混合建模。
+
+数据/实验：
+随机眼跳任务公开数据，包含目标跳转后的首次注视、纠正性眼跳和 100 秒任务过程。
+
+主要结论：
+fixation duration 可分为五类，长注视随任务推进减少，短注视和纠正性眼跳增多。
+
+局限性：
+随机眼跳任务较单一，疲劳解释需结合其他任务和人群验证。
+
+可提取眼动特征：
+fixation duration、五类注视类型、saccade latency、corrective saccade、time-on-task、长/短注视比例。
