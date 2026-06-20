@@ -1,0 +1,23 @@
+题名：Examining the Role of Eye Movements During Conversational Listening in Noise
+作者：Edin Sabic; Daniel Henning; Hunter Myuz; Audrey Morrow; Michael C. Hout; Justin A. MacDonald
+年份：2020
+DOI / Source：Frontiers in Psychology, 10.3389/fpsyg.2020.00200
+PDF：https://www.frontiersin.org/articles/10.3389/fpsyg.2020.00200/pdf
+
+研究问题：
+研究在对话式听觉-视觉场景中，噪声和视觉信息如何改变人的眼动分配。
+
+方法：
+记录对话/噪声条件下的眼动，比较不同听觉条件下的凝视分布、注视持续时间和视觉信息利用。
+
+数据/实验：
+被试观看或聆听对话材料，同时记录眼动并分析噪声、视觉可见性和任务条件。
+
+主要结论：
+噪声和听觉负荷会改变观看策略，眼动能反映听者在复杂听觉环境中如何调用视觉线索。
+
+局限性：
+受控实验与真实听障者自然交流仍有差距，个体听力状态和材料类型可能影响泛化。
+
+可提取眼动特征：
+注视持续时间、面部/说话者 AOI 注视比例、凝视空间分布、凝视分散度、对话片段内时序变化。
