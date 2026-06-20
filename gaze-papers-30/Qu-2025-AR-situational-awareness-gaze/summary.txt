@@ -1,0 +1,23 @@
+题名：Will You Be Aware? Eye Tracking-Based Modeling of Situational Awareness in Augmented Reality
+作者：Zhehan Qu; Tianyi Hu; Christian Fronk; Maria Gorlatova
+年份：2025
+arXiv ID：2508.05025
+PDF：https://arxiv.org/pdf/2508.05025.pdf
+
+研究问题：
+研究 AR 场景中能否通过眼动特征预测用户情境意识水平。
+
+方法：
+提取眼跳幅度、眼跳速度、对虚拟内容注视比例/频率，并提出 fixation/saccade 时空图模型。
+
+数据/实验：
+AR 用户研究数据，使用眼动和情境意识标签训练分类模型。
+
+主要结论：
+眼跳动力学、虚拟对象 AOI 注视比例和图结构序列能有效预测认知状态。
+
+局限性：
+AR 场景和听障交流场景不同，任务标签是情境意识而非听障眼动规律。
+
+可提取眼动特征：
+眼跳幅度、眼跳速度、虚拟内容注视比例、虚拟内容注视频率、fixation/saccade 图、时空事件序列。
