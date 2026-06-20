@@ -1,0 +1,23 @@
+题名：Impact of cognitive and linguistic ability on gaze behavior in children with hearing impairment
+作者：Olof Sandgren; Richard Andersson; Joost van de Weijer; Kristina Hansson; Birgitta Sahlen
+年份：2013
+DOI / Source：Frontiers in Psychology, 10.3389/fpsyg.2013.00856
+PDF：https://www.frontiersin.org/articles/10.3389/fpsyg.2013.00856/pdf
+
+研究问题：
+研究听障儿童在语言互动任务中的凝视行为是否受认知和语言能力影响。
+
+方法：
+在交流/语言任务中记录视线，按交流对象、任务材料和其他区域划分 AOI。
+
+数据/实验：
+听障儿童样本，结合眼动记录、语言任务表现和认知/语言能力指标。
+
+主要结论：
+看向交流伙伴或任务相关区域的概率与语言、认知因素有关。
+
+局限性：
+研究对象为儿童，任务场景和成人听障者自然任务可能不同。
+
+可提取眼动特征：
+看向交流伙伴面部概率、任务 AOI 注视比例、off-task gaze、AOI 转移、交流轮次内凝视时序。
