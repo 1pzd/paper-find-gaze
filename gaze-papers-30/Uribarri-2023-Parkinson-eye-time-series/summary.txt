@@ -1,0 +1,23 @@
+题名：Deep Learning for Time Series Classification of Parkinson's Disease Eye Tracking Data
+作者：Gonzalo Uribarri; Simon Ekman von Huth; Josefine Waldthaler; Per Svenningsson; Erik Fransen
+年份：2023
+arXiv ID：2311.16381
+PDF：https://arxiv.org/pdf/2311.16381.pdf
+
+研究问题：
+研究深度时间序列分类方法是否能利用短时眼动片段识别帕金森病。
+
+方法：
+将眼跳实验中的短时 fixation interval/时间序列输入 InceptionTime、ROCKET 等模型。
+
+数据/实验：
+来自眼跳实验的约 1.5 秒短眼动片段，用于疾病分类实验。
+
+主要结论：
+短时间眼动片段也包含可分类信息，支持在 TCN 中使用窗口化 gaze 序列及派生事件特征。
+
+局限性：
+疾病识别任务与听障眼动规律预测不同，效果依赖采集任务和样本分布。
+
+可提取眼动特征：
+短时 fixation interval、窗口化眼动序列、时间序列片段、眼跳任务反应、原始/派生眼动动态。
