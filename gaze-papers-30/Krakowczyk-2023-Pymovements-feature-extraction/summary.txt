@@ -1,0 +1,23 @@
+题名：pymovements: A Python Package for Eye Movement Data Processing
+作者：Daniel G. Krakowczyk; David R. Reich; Jakob Chwastek; Deborah N. Jakobi; Paul Prasse; Assunta Suss; Oleksii Turuta; Pawel Kasprowski; Lena A. Jager
+年份：2023
+arXiv ID：2304.09859
+PDF：https://arxiv.org/pdf/2304.09859.pdf
+
+研究问题：
+提出用于眼动数据处理的 Python 包，解决格式、坐标变换、速度计算和事件检测流程分散的问题。
+
+方法：
+设计工具链读取眼动数据、位置到速度转换、fixation/saccade 检测、特征计算和数据集管理。
+
+数据/实验：
+以多个公开眼动数据处理流程为示例展示 preprocessing 和 feature extraction。
+
+主要结论：
+给出了从 gaze-x/y 到速度、眼跳、注视、幅度和离散度等特征的实际处理路径。
+
+局限性：
+主要是软件/流程论文，不直接证明某个特征在听障任务中最优。
+
+可提取眼动特征：
+速度、加速度、fixation/saccade 事件、眼跳幅度、注视离散度、采样率/数据质量、时间序列窗口。
