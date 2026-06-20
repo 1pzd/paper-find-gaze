@@ -1,0 +1,23 @@
+题名：NMF-Based Analysis of Mobile Eye-Tracking Data
+作者：Daniel Klotzl; Tim Krake; Frank Heyen; Michael Becher; Maurice Koch; Daniel Weiskopf; Kuno Kurzhals
+年份：2024
+arXiv ID：2404.03417
+PDF：https://arxiv.org/pdf/2404.03417.pdf
+
+研究问题：
+研究如何在移动眼动记录中无监督发现共同关注区域和时间模式。
+
+方法：
+将刺激缩略图/scanpath 表示输入非负矩阵分解，得到空间成分和对应时间指标。
+
+数据/实验：
+艺术馆移动眼动数据，用于展示 NMF 分解出的空间 AOI 和时间指示信号。
+
+主要结论：
+无监督 AOI 与 temporal indicator 可从原始 gaze 数据中自动构造。
+
+局限性：
+NMF 成分的语义解释依赖刺激内容；不是端到端预测评估。
+
+可提取眼动特征：
+无监督 AOI、scanpath、空间成分、temporal indicator、NMF component activation、移动眼动时间序列。
