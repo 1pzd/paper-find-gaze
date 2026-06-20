@@ -1,0 +1,23 @@
+题名：Eye Tracking as a Source of Implicit Feedback in Recommender Systems: A Preliminary Analysis
+作者：Santiago de Leon-Martinez; Robert Moro; Maria Bielikova
+年份：2023
+arXiv ID：2305.07516
+PDF：https://arxiv.org/pdf/2305.07516.pdf
+
+研究问题：
+研究眼动数据能否作为推荐系统的隐式反馈，并检验 AOI duration 与点击/兴趣的关系。
+
+方法：
+在电影推荐任务中记录眼动，将 AOI duration 用于协同过滤模型并与点击反馈比较。
+
+数据/实验：
+推荐系统用户实验数据，包含项目 AOI 注视时间和行为反馈。
+
+主要结论：
+AOI duration 与用户兴趣相关，可补充点击反馈。
+
+局限性：
+推荐任务和听障交流任务不同；论文是初步分析。
+
+可提取眼动特征：
+AOI duration、dwell time、项目注视时间、点击/兴趣关联、AOI 层级隐式反馈。
