@@ -1,0 +1,23 @@
+题名：Gazealytics: A Unified and Flexible Visual Toolkit for Exploratory and Comparative Gaze Analysis
+作者：Kun-Ting Chen; Arnaud Prouzeau; Joshua Langmead; Ryan T. Whitelock-Jones; Lee Lawrence; Tim Dwyer; Christophe Hurter; Daniel Weiskopf; Sarah Goodwin
+年份：2023
+arXiv ID：2303.17202
+PDF：https://arxiv.org/pdf/2303.17202.pdf
+
+研究问题：
+研究如何用统一、灵活工具支持眼动数据在时间和空间上的探索性与比较分析。
+
+方法：
+提出 Gazealytics，可标注 AOI、过滤数据、协调视图显示 fixations/scanpaths，并用矩阵表示时空关系。
+
+数据/实验：
+通过多个眼动数据集和分析任务 walkthrough 展示工具能力。
+
+主要结论：
+时间窗口、AOI、fixation、scanpath 和时空矩阵是眼动数据分析的基础表示。
+
+局限性：
+工具论文不直接给出特征对特定预测任务的因果效力。
+
+可提取眼动特征：
+fixation、scanpath、AOI、time window of interest、spatiotemporal matrix、组内/组间比较指标。
