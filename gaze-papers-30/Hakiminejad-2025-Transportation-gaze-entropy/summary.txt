@@ -1,0 +1,23 @@
+题名：Shaping Passenger Experience: An Eye-Tracking Study of Public Transportation Built Environment
+作者：Yasaman Hakiminejad; Elizabeth Pantesco; Arash Tavakoli
+年份：2025
+arXiv ID：2501.02641
+PDF：https://arxiv.org/pdf/2501.02641.pdf
+
+研究问题：
+研究公共交通车厢环境设计如何影响乘客视觉注意和体验。
+
+方法：
+提取 TFF、FFD、注视次数、平均注视持续时间、stationary gaze entropy 和 gaze transition entropy。
+
+数据/实验：
+304 名参与者在不同车厢设计刺激下的眼动数据和体验评价。
+
+主要结论：
+TFF、FFD、注视次数和 gaze entropy 能量化视觉注意集中/分散程度。
+
+局限性：
+研究对象是交通环境，不是听障交流；2025 预印本结论需后续验证。
+
+可提取眼动特征：
+注视次数、TFF、FFD、平均注视持续时间、stationary gaze entropy、gaze transition entropy、AOI 转移。
