@@ -1,0 +1,23 @@
+题名：A Spiral into the Mind: Gaze Spiral Visualization for Mobile Eye Tracking
+作者：Maurice Koch; Daniel Weiskopf; Kuno Kurzhals
+年份：2022
+arXiv ID：2204.13494
+PDF：https://arxiv.org/pdf/2204.13494.pdf
+
+研究问题：
+研究在没有预定义 AOI 的移动眼动数据中如何比较长时间、多被试 scanpath 和重复观看模式。
+
+方法：
+提出 gaze spiral 可视化，将刺激内容和 scanpath 压缩成螺旋布局，并结合 scanpath metrics。
+
+数据/实验：
+两个 egocentric/mobile eye-tracking 数据集，用于长时间记录的注释、比较和模式发现。
+
+主要结论：
+scanpath 的压缩表示、重复模式和相似度指标可帮助发现行为规律。
+
+局限性：
+偏可视分析工具，未直接评估预测听障眼动规律。
+
+可提取眼动特征：
+scanpath、重复凝视模式、scanpath metrics、长时间记录片段、个体间相似度、移动眼动时序。
