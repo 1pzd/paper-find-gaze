@@ -32,3 +32,23 @@
 | Scanpath Prediction on Information Visualisations | 2021 | Yao Wang | Scanpath info visualisations | https://arxiv.org/pdf/2112.02340.pdf |
 | MRGazer: Decoding Eye Gaze Points from Functional Magnetic Resonance Imaging in Individual Space | 2023 | Xiuwen Wu | MRGazer fMRI gaze points | https://arxiv.org/pdf/2311.13372.pdf |
 | Few-shot Personalized Scanpath Prediction | 2025 | Ruoyu Xue | Few shot personalized scanpath | https://arxiv.org/pdf/2504.05499.pdf |
+| Examining the Role of Eye Movements During Conversational Listening in Noise | 2020 | Edin Sabic | Conversational listening noise gaze | https://www.frontiersin.org/articles/10.3389/fpsyg.2020.00200/pdf |
+| Gaze Patterns in Auditory-Visual Perception of Emotion by Children with Hearing Aids and Hearing Children | 2017 | Yifang Wang | Hearing aids emotion gaze | https://www.frontiersin.org/articles/10.3389/fpsyg.2017.02281/pdf |
+| Impact of cognitive and linguistic ability on gaze behavior in children with hearing impairment | 2013 | Olof Sandgren | Hearing impairment gaze behavior | https://www.frontiersin.org/articles/10.3389/fpsyg.2013.00856/pdf |
+| Eye-Movement Deficits in Seniors with Hearing Aids: Cognitive and Multisensory Implications | 2022 | Martin Chavant | Seniors hearing aids eye deficits | https://mdpi-res.com/d_attachment/brainsci/brainsci-12-01425/article_deploy/brainsci-12-01425-v2.pdf?version=1667290217 |
+| Comparing In-ear EOG for Eye-Movement Estimation With Eye-Tracking: Accuracy, Calibration, and Speech Comprehension | 2022 | Martin A. Skoglund | In ear EOG eye tracking speech | https://www.frontiersin.org/articles/10.3389/fnins.2022.873201/pdf |
+| Bridging the Gap: Gaze Events as Interpretable Concepts to Explain Deep Neural Sequence Models | 2023 | Daniel G. Krakowczyk | Gaze events deep sequence | https://arxiv.org/pdf/2304.13536.pdf |
+| pymovements: A Python Package for Eye Movement Data Processing | 2023 | Daniel G. Krakowczyk | Pymovements feature extraction | https://arxiv.org/pdf/2304.09859.pdf |
+| Deep Learning for Time Series Classification of Parkinson's Disease Eye Tracking Data | 2023 | Gonzalo Uribarri | Parkinson eye time series | https://arxiv.org/pdf/2311.16381.pdf |
+| Will You Be Aware? Eye Tracking-Based Modeling of Situational Awareness in Augmented Reality | 2025 | Zhehan Qu | AR situational awareness gaze | https://arxiv.org/pdf/2508.05025.pdf |
+| Shaping Passenger Experience: An Eye-Tracking Study of Public Transportation Built Environment | 2025 | Yasaman Hakiminejad | Transportation gaze entropy | https://arxiv.org/pdf/2501.02641.pdf |
+| Evidence for five types of fixation during a random saccade eye tracking task: Implications for the study of oculomotor fatigue | 2024 | Lee Friedman | Five fixation types fatigue | https://arxiv.org/pdf/2406.01496.pdf |
+| MambaPupil: Bidirectional Selective Recurrent model for Event-based Eye tracking | 2024 | Zhong Wang | MambaPupil event eye tracking | https://arxiv.org/pdf/2404.12083.pdf |
+| A Spiral into the Mind: Gaze Spiral Visualization for Mobile Eye Tracking | 2022 | Maurice Koch | Gaze spiral mobile tracking | https://arxiv.org/pdf/2204.13494.pdf |
+| Eye Tracking as a Source of Implicit Feedback in Recommender Systems: A Preliminary Analysis | 2023 | Santiago de Leon-Martinez | Implicit feedback recommender gaze | https://arxiv.org/pdf/2305.07516.pdf |
+| Gazealytics: A Unified and Flexible Visual Toolkit for Exploratory and Comparative Gaze Analysis | 2023 | Kun-Ting Chen | Gazealytics eye analytics | https://arxiv.org/pdf/2303.17202.pdf |
+| NMF-Based Analysis of Mobile Eye-Tracking Data | 2024 | Daniel Klotzl | NMF mobile eye tracking | https://arxiv.org/pdf/2404.03417.pdf |
+| Detecting Task Demand via an Eye Tracking Machine Learning System | 2022 | Mina Shojaeizadeh | Task demand eye features | https://users.wpi.edu/~atrapp/docs/Preprint_Detecting_Task_Demand_via_an_Eye_Tracking_Machine_Learning_System.pdf |
+| Exploring Eye Tracking to Detect Cognitive Load in Complex Virtual Reality Training | 2024 | Mahsa Nasri | VR cognitive load eye tracking | https://arxiv.org/pdf/2411.12771.pdf |
+| Eye Tracking to Understand Impact of Aging on Mobile Phone Applications | 2021 | Antony William Joseph | Aging mobile eye features | https://arxiv.org/pdf/2101.00792.pdf |
+| Developing a Dyslexia Indicator Using Eye Tracking | 2025 | Kevin Cogan | Dyslexia eye tracking indicator | https://arxiv.org/pdf/2506.11004.pdf |
