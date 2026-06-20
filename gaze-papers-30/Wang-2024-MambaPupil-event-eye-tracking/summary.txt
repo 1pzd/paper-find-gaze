@@ -1,0 +1,23 @@
+题名：MambaPupil: Bidirectional Selective Recurrent model for Event-based Eye tracking
+作者：Zhong Wang; Zengyu Wan; Han Han; Bohao Liao; Yuliang Wu; Wei Zhai; Yang Cao; Zheng-jun Zha
+年份：2024
+arXiv ID：2404.12083
+PDF：https://arxiv.org/pdf/2404.12083.pdf
+
+研究问题：
+研究事件相机眼动追踪中如何处理眨眼、注视、眼跳和平滑追踪等快速变化模式。
+
+方法：
+提出 MambaPupil，将卷积编码、双向 GRU 和线性时变状态空间模块结合。
+
+数据/实验：
+ThreeET-plus 基准和 CVPR 2024 AIS Event-based Eye Tracking Challenge。
+
+主要结论：
+长程时序上下文和事件表示能提升细粒度眼动追踪稳定性。
+
+局限性：
+依赖事件相机输入，不能直接迁移到普通眼动仪；主要优化定位而非行为解释。
+
+可提取眼动特征：
+blink、fixation、saccade、smooth pursuit、事件表示、时间上下文、瞳孔/眼部位置序列。
