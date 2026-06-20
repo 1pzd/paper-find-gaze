@@ -1,0 +1,23 @@
+题名：Bridging the Gap: Gaze Events as Interpretable Concepts to Explain Deep Neural Sequence Models
+作者：Daniel G. Krakowczyk; Paul Prasse; David R. Reich; Sebastian Lapuschkin; Tobias Scheffer; Lena A. Jager
+年份：2023
+arXiv ID：2304.13536
+PDF：https://arxiv.org/pdf/2304.13536.pdf
+
+研究问题：
+研究深度眼动序列模型中的哪些 gaze event 对模型决策最重要。
+
+方法：
+将 fixations 与 saccades 作为可解释概念，结合深度序列模型和解释方法分析贡献。
+
+数据/实验：
+使用眼动生物识别/序列分类相关数据，对深度神经序列模型进行训练和解释。
+
+主要结论：
+眼跳比注视对模型决策更关键，眼跳峰值速度附近样本尤其重要。
+
+局限性：
+任务集中在生物识别/序列解释，和听障人群任务目标不同。
+
+可提取眼动特征：
+fixation/saccade 事件标签、眼跳峰值速度、眼跳幅度、注视离散度、事件邻近窗口、序列解释权重。
