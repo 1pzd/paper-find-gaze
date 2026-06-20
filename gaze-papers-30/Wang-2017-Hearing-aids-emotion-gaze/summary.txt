@@ -1,0 +1,23 @@
+题名：Gaze Patterns in Auditory-Visual Perception of Emotion by Children with Hearing Aids and Hearing Children
+作者：Yifang Wang; Wei Zhou; Yanhong Cheng; Xiaoying Bian
+年份：2017
+DOI / Source：Frontiers in Psychology, 10.3389/fpsyg.2017.02281
+PDF：https://www.frontiersin.org/articles/10.3389/fpsyg.2017.02281/pdf
+
+研究问题：
+研究佩戴助听器儿童在听觉-视觉情绪识别中是否呈现不同面部注视模式。
+
+方法：
+用眼动仪记录儿童观看情绪面孔时的视线，按上脸、下脸、眼部、口部等 AOI 统计。
+
+数据/实验：
+比较助听器儿童与听力正常儿童在多种情绪/视听条件下的眼动和识别表现。
+
+主要结论：
+听障/助听器儿童对眼部、口部和上下脸区域的信息利用存在差异。
+
+局限性：
+样本和年龄范围有限，情绪识别任务与一般眼动规律预测不完全等价。
+
+可提取眼动特征：
+眼部/口部/上脸/下脸 AOI 注视比例、AOI 停留时间、上下脸眼跳次数、区域转移序列。
