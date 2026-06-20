@@ -1,0 +1,23 @@
+题名：Eye Tracking to Understand Impact of Aging on Mobile Phone Applications
+作者：Antony William Joseph; Jeevitha Shree D. V.; Kama Preet Singh Saluja; Abhishek Mukhopadhyay; Ramaswami Murugesh; Pradipta Biswas
+年份：2021
+arXiv ID：2101.00792
+PDF：https://arxiv.org/pdf/2101.00792.pdf
+
+研究问题：
+研究年龄增长如何影响移动应用交互中的视觉行为和认知负荷。
+
+方法：
+在自然手机任务中用眼动眼镜记录眼动，提取 fixation rate、saccadic rate、注视持续时间和瞳孔扩张标准差。
+
+数据/实验：
+50 名 20 岁到 60 岁以上参与者完成 5 个 Android 手机任务。
+
+主要结论：
+高龄参与者在复杂任务中表现出更长注视和更高认知负荷。
+
+局限性：
+研究对象为年龄差异与移动交互，不是听障；任务类型会影响眼动统计。
+
+可提取眼动特征：
+fixation rate、saccadic rate、平均注视持续时间、最大注视持续时间、左右眼瞳孔扩张标准差、任务完成时间。
