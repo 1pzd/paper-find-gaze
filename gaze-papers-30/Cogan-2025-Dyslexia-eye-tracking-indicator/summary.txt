@@ -1,0 +1,23 @@
+题名：Developing a Dyslexia Indicator Using Eye Tracking
+作者：Kevin Cogan; Vuong M. Ngo; Mark Roantree
+年份：2025
+arXiv ID：2506.11004
+PDF：https://arxiv.org/pdf/2506.11004.pdf
+
+研究问题：
+研究眼动结合机器学习能否作为低成本、非侵入的阅读障碍早期指标。
+
+方法：
+分析 prolonged fixation duration、erratic saccades 等特征，用随机森林分类并用层次聚类区分严重程度。
+
+数据/实验：
+跨人群/场景的眼动阅读障碍数据和特征实验。
+
+主要结论：
+异常注视持续时间和不规则眼跳可作为临床/学习困难相关眼动特征。
+
+局限性：
+阅读障碍和听障机制不同；2025 预印本需进一步验证。
+
+可提取眼动特征：
+prolonged fixation duration、erratic saccades、眼动模式严重程度、随机森林特征、聚类 severity label。
