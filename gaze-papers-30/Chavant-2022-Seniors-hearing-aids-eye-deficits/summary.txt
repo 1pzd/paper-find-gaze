@@ -1,0 +1,23 @@
+题名：Eye-Movement Deficits in Seniors with Hearing Aids: Cognitive and Multisensory Implications
+作者：Martin Chavant; Zoe Kapoula
+年份：2022
+DOI / Source：Brain Sciences, 10.3390/brainsci12111425
+PDF：https://mdpi-res.com/d_attachment/brainsci/brainsci-12-01425/article_deploy/brainsci-12-01425-v2.pdf?version=1667290217
+
+研究问题：
+研究老年助听器使用者在视觉和视听目标任务中的眼跳、聚散运动是否存在缺陷。
+
+方法：
+记录视觉和视听目标诱发的 saccade 与 vergence，比较佩戴/不佩戴助听器条件。
+
+数据/实验：
+老年听力损失且佩戴助听器的被试完成视觉目标与视听目标眼动任务。
+
+主要结论：
+助听器条件与部分眼跳潜伏期缩短相关，眼跳/聚散潜伏期可反映听觉辅助和多感官整合状态。
+
+局限性：
+试点研究样本较小，目标跳转任务不能覆盖自然交流连续眼动。
+
+可提取眼动特征：
+眼跳潜伏期、聚散潜伏期、视觉/视听目标差异、方向性眼跳、反应时间、目标诱发眼动序列。
