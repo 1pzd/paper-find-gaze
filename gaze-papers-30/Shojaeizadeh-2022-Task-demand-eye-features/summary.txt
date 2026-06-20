@@ -1,0 +1,23 @@
+题名：Detecting Task Demand via an Eye Tracking Machine Learning System
+作者：Mina Shojaeizadeh; Soussan Djamasbi; Randy C. Paffenroth; Andrew C. Trapp
+年份：2022
+Source：WPI preprint PDF
+PDF：https://users.wpi.edu/~atrapp/docs/Preprint_Detecting_Task_Demand_via_an_Eye_Tracking_Machine_Learning_System.pdf
+
+研究问题：
+研究是否能仅用眼动特征自动检测任务需求/认知负荷。
+
+方法：
+提取注视、眼跳、眨眼、瞳孔等统计特征，训练机器学习系统预测较高任务需求。
+
+数据/实验：
+人机交互决策任务中的眼动实验数据，比较不同任务需求条件下的模型检测效果。
+
+主要结论：
+多类眼动统计特征组合比原始坐标更适合认知/行为状态预测。
+
+局限性：
+预印本形式，任务负荷不等同听障交流；需注意数据规模和实验任务差异。
+
+可提取眼动特征：
+平均/标准差注视持续时间、归一化注视次数/持续时间、眼跳持续时间/幅度/次数、眨眼持续时间/次数、瞳孔扩张及导数。
