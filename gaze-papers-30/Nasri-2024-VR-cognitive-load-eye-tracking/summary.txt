@@ -1,0 +1,23 @@
+题名：Exploring Eye Tracking to Detect Cognitive Load in Complex Virtual Reality Training
+作者：Mahsa Nasri; Mehmet Kosa; Leanne Chukoskie; Mohsen Moghaddam; Casper Harteveld
+年份：2024
+arXiv ID：2411.12771
+PDF：https://arxiv.org/pdf/2411.12771.pdf
+
+研究问题：
+研究复杂 VR 训练中能否用眼动检测认知负荷。
+
+方法：
+在 VR 冷喷训练系统中记录眼动，用 pupil dilation 和 fixation duration 训练 MLP、Random Forest 预测 NASA-TLX。
+
+数据/实验：
+22 名参与者，19 份有效 VR 眼动数据和 NASA-TLX 负荷评分。
+
+主要结论：
+瞳孔扩张和注视持续时间可作为复杂时空任务中的认知负荷特征。
+
+局限性：
+初步研究、样本小，VR 任务和听障任务不同。
+
+可提取眼动特征：
+瞳孔扩张、注视持续时间、双眼信号、NASA-TLX 对齐标签、时间窗口统计。
