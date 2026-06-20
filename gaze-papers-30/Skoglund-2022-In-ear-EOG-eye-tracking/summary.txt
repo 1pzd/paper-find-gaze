@@ -1,0 +1,23 @@
+题名：Comparing In-ear EOG for Eye-Movement Estimation With Eye-Tracking: Accuracy, Calibration, and Speech Comprehension
+作者：Martin A. Skoglund; Martin Andersen; Martha M. Shiell; Gitte Keidser; Mike Lind Rank; Sergi Rotger-Griful
+年份：2022
+DOI / Source：Frontiers in Neuroscience, 10.3389/fnins.2022.873201
+PDF：https://www.frontiersin.org/articles/10.3389/fnins.2022.873201/pdf
+
+研究问题：
+比较入耳式 EOG 与眼动仪在眼动估计、校准和语音理解场景中的一致性。
+
+方法：
+以眼动仪为参考，比较 EOG 估计眼动、校准误差、看向说话者/方向估计，并结合语音理解任务。
+
+数据/实验：
+含语音理解任务的被试实验，同步记录眼动仪与入耳式 EOG。
+
+主要结论：
+眼动参考信号可用于评估听觉场景中的看向说话者或注意方向。
+
+局限性：
+EOG 不是标准眼动仪输出；若只有眼动仪，应采用注意方向、说话者 AOI 和眼跳指标。
+
+可提取眼动特征：
+看向/注意说话者估计、水平眼动方向、眼跳检测、校准误差、注视说话者 AOI、语音任务时序眼动。
